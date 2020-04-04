@@ -18,3 +18,13 @@ arrMax = (arr) => {
   });
   return largest_num;
 };
+
+sumEvens = (arr) => {
+  sum = 0;
+  for (let num of arr) {
+    if (num % 2 == 0) {
+      sum += num;
+    }
+  }
+  return sum;
+};
