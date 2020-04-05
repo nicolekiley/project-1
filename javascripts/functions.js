@@ -28,3 +28,10 @@ sumEvens = (arr) => {
   }
   return sum;
 };
+
+var alphaPosition = function(ch) {
+  let letter = ch.toUpperCase();
+  let code = letter.charCodeAt();
+  position = code - 64;
+  return position;
+};
