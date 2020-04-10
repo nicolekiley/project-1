@@ -9,3 +9,5 @@
 - Markdown language for README files
 - JavaScript ES6+ features
 - Basic Git and Unix Shell vocabulary
+
+![alt text](octoCatGithub.png "Title")
